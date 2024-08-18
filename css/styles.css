@@ -488,7 +488,6 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   padding-left: 16px;
-  background-color: #2e2f42;
 }
 
 .footer-form-btn {
@@ -621,23 +620,6 @@ img {
 }
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
-}
-.form-comment {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  margin-bottom: 16px;
-}
-.modal-form-comment {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-  display: block;
-  margin-bottom: 4px;
 }
 .textarea-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
