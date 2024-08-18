@@ -651,6 +651,7 @@ img {
 }
 .modal-checkbox {
   margin-bottom: 24px;
+  margin-top: 16px;
 }
 .modal-checkbox-input:checked + .label-checkbox > .castom-checkbox {
   border-color: transparent;
