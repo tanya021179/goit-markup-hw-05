@@ -432,7 +432,6 @@ img {
 .footer-media {
   max-width: 208px;
   margin-right: 80px;
-  
 }
 .footer-border-icon {
   display: flex;
@@ -464,11 +463,11 @@ img {
 
 .footer-form-title {
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 .footer-form {
   display: flex;
@@ -478,37 +477,41 @@ img {
 .footer-input {
   border: 1px solid #fff;
   border-radius: 4px;
-    width: 264px;
-    height: 40px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    outline: transparent;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #fff;
-    padding-left: 16px;
-    background-color: #2e2f42;;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  outline: transparent;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-left: 16px;
+  background-color: #2e2f42;
 }
 
 .footer-form-btn {
   font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
-    border-radius: 4px;
-      padding: 8px 24px;
-      width: 165px;
-      height: 40px;
-      background: #4d5ae5;
-      cursor: pointer;
-      border: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  background: #4d5ae5;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.footer-icon {
+  margin-left: 16px;
 }
 /* #endregion footer */
 /* #region backdrop */
@@ -560,6 +563,8 @@ img {
   background-color: #e7e9fc;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
 }
 .backdorp-btn:hover,
 .backdorp-btn:focus {
@@ -626,8 +631,13 @@ img {
   margin-bottom: 16px;
 }
 .modal-form-comment {
-  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
   display: block;
+  margin-bottom: 4px;
 }
 .textarea-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -664,7 +674,7 @@ img {
   border-color: transparent;
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;;
+  fill: #f4f4fd;
 }
 .label-checkbox {
   cursor: pointer;
