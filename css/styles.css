@@ -621,6 +621,9 @@ img {
 .modal-input:focus + .modal-icon {
   fill: #4d5ae5;
 }
+.form-comment {
+  margin-bottom: 16px;
+}
 .textarea-comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
@@ -651,7 +654,6 @@ img {
 }
 .modal-checkbox {
   margin-bottom: 24px;
-  margin-top: 16px;
 }
 .modal-checkbox-input:checked + .label-checkbox > .castom-checkbox {
   border-color: transparent;
