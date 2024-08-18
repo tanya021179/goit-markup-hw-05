@@ -391,11 +391,11 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
   display: flex;
+  margin: 0 auto;
 }
 .footer-container {
   display: flex;
   align-items: baseline;
-  margin: 0;
 }
 .footer-logo-text {
   margin-right: 120px;
@@ -432,6 +432,7 @@ img {
 .footer-media {
   max-width: 208px;
   margin-right: 80px;
+  
 }
 .footer-border-icon {
   display: flex;
@@ -457,7 +458,9 @@ img {
 .footer-border:focus {
   background-color: #31d0aa;
 }
-.footer-right-form {}
+.footer-right-form {
+  max-width: 453px;
+}
 
 .footer-form-title {
   font-weight: 500;
@@ -502,8 +505,10 @@ img {
       background: #4d5ae5;
       cursor: pointer;
       border: none;
-      background-image: url('../images/icons.svg#icon-send');
-     
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
 }
 /* #endregion footer */
 /* #region backdrop */
